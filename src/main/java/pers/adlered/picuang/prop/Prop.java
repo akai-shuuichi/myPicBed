@@ -41,7 +41,7 @@ public class Prop {
             Logger.log("Generating new profile...");
             properties.put("imageUploadedCount", "0");
             properties.put("version", version);
-            properties.put("password", "");
+            properties.put("password", "gzx12345");
             properties.put("adminOnly", "off");
             properties.put("uploadLimit", "1:1");
             properties.put("cloneLimit", "3:1");
