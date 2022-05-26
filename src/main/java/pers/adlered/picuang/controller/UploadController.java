@@ -1,6 +1,7 @@
 package pers.adlered.picuang.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.util.ObjectUtils;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -25,6 +26,7 @@ import java.util.regex.Pattern;
 
 @Controller
 public class UploadController {
+    public  Pattern p;
     public static SimpleCurrentLimiter uploadLimiter = new SimpleCurrentLimiter(1, 1);
     public static SimpleCurrentLimiter cloneLimiter = new SimpleCurrentLimiter(3, 1);
 
@@ -170,7 +172,9 @@ public class UploadController {
                 fileOutputStream.flush();
                 fileOutputStream.close();
                 bufferedInputStream.close();
-                Pattern p = Pattern.compile("(?<=http://|\\.)[^.]*?\\.(com|cn|net|org|biz|info|cc|tv|xyz|cc|free)", Pattern.CASE_INSENSITIVE);
+                if(p==null|| ObjectUtils.isEmpty(p)){
+                     p = Pattern.compile("(?<=http://|\\.)[^.]*?\\.(com|cn|net|org|biz|info|cc|tv|xyz|cc|free)", Pattern.CASE_INSENSITIVE);
+                }
                 Matcher matcher = p.matcher(url);
                 matcher.find();
                 result.setData("From " + matcher.group());
