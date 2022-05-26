@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b87d8c55-1834-406c-9684-18f017a5d2d4" name="Default Changelist" comment=":wrench: 修复更新版本重载按钮不存在的Bug">
-      <change afterPath="$PROJECT_DIR$/E:/imgupload/127/0/0/1/2022/05/24/13/09/886f7f0e-c502-4f7d-a529-bab89c713df7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E:/imgupload/127/0/0/1/2022/05/24/13/11/897a0a59-8912-4ab2-b8f6-9b0d304be9c7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E:/imgupload/127/0/0/1/2022/05/24/14/11/e836c9c3-7af1-4300-8902-1165c68d63f4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/adlered/picuang/config.java" afterDir="false" />
+    <list default="true" id="b87d8c55-1834-406c-9684-18f017a5d2d4" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -470,20 +467,7 @@
       <workItem from="1611534729585" duration="777000" />
       <workItem from="1653364371186" duration="5181000" />
       <workItem from="1653383116925" duration="1179000" />
-    </task>
-    <task id="LOCAL-00026" summary="自V1.2版本开始，Picuang使用Apache License">
-      <created>1573104751881</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1573104751881</updated>
-    </task>
-    <task id="LOCAL-00027" summary="修改版本号">
-      <created>1573104828370</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1573104828370</updated>
+      <workItem from="1653556888693" duration="1510000" />
     </task>
     <task id="LOCAL-00028" summary="上传后点击图片可以在新标签页打开原图">
       <created>1573105630620</created>
@@ -814,7 +798,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611301340060</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="update">
+      <created>1653557013913</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1653557013913</updated>
+    </task>
+    <task id="LOCAL-00076" summary="update">
+      <created>1653561359806</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1653561359806</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -851,7 +849,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update README" />
     <MESSAGE value="修改版本号" />
     <MESSAGE value="仅管理员模式提示" />
     <MESSAGE value="拖拽管理员模式适配，增加页面切换、登录框特效，管理后台QA折叠" />
@@ -876,7 +873,8 @@
     <MESSAGE value=":art: UI调优" />
     <MESSAGE value=":wrench: “历史”使用lazyload，减轻服务端压力" />
     <MESSAGE value=":wrench: 修复更新版本重载按钮不存在的Bug" />
-    <option name="LAST_COMMIT_MESSAGE" value=":wrench: 修复更新版本重载按钮不存在的Bug" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
