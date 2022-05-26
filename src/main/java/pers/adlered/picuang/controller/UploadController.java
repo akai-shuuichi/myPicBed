@@ -170,7 +170,7 @@ public class UploadController {
                 fileOutputStream.flush();
                 fileOutputStream.close();
                 bufferedInputStream.close();
-                Pattern p = Pattern.compile("(?<=http://|\\.)[^.]*?\\.(com|cn|net|org|biz|info|cc|tv)", Pattern.CASE_INSENSITIVE);
+                Pattern p = Pattern.compile("(?<=http://|\\.)[^.]*?\\.(com|cn|net|org|biz|info|cc|tv|xyz|cc|free)", Pattern.CASE_INSENSITIVE);
                 Matcher matcher = p.matcher(url);
                 matcher.find();
                 result.setData("From " + matcher.group());
@@ -181,6 +181,7 @@ public class UploadController {
                 Prop.set("imageUploadedCount", String.valueOf(count));
                 return result;
             } catch (Exception e) {
+                e.printStackTrace();
                 result.setCode(500);
                 result.setMsg(e.getClass().toGenericString());
                 return result;
